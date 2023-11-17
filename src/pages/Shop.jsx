@@ -1,3 +1,4 @@
+import NewCollection from '../components/NewCollection/NewCollection';
 import Popular from '../components/Popular/Popular';
 import Hero from '../components/hero/Hero';
 import Offer from '../components/offers/Offer';
@@ -8,6 +9,7 @@ const Shop = () => {
       <Hero />
       <Popular />
       <Offer />
+      <NewCollection />
     </div>
   );
 };
